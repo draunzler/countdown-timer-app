@@ -1,3 +1,8 @@
+const daysEl = document.getElementById('days')
+const hoursEl = document.getElementById('hours')
+const minsEl = document.getElementById('mins')
+const secsEl = document.getElementById('seconds')
+
 const newYears = "1 Jan 2024";
 
 function countdown(){
