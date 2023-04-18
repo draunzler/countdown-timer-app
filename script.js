@@ -14,7 +14,12 @@ function countdown(){
     const hours = Math.floor(totalSeconds/3600)%24;
     const mins = Math.floor(totalSeconds/60)%60;
     const secs = Math.floor(totalSeconds)%60;
+
+    daysEl.innerHTML = days;
+    hoursEl.innerHTML = hours;
+    minsEl.innerHTML = mins;
+    secsEl.innerHTML = secs;
 }
 
 countdown();
-setInterval(countdown.1000);
+setInterval(countdown,1000);
